@@ -1,0 +1,233 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+ /* main page */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("../images/what-the-hex.png");
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+#myname h1 {
+    float: left;
+    margin: 0 auto;
+    padding: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px 0;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    text-align: left;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+}
+
+.nav {
+    float: right;
+    text-align: right;
+}
+
+ul {
+    padding: 20px 0;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+ul li:not(:first-child):before {
+    content: " | ";
+    color: #cccccc;
+}
+
+a:link {
+    padding: 10px;
+    color: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: #777777;
+}
+
+main {
+    margin: 30px auto;
+    width: 960px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: thin;
+}
+
+.section{
+    margin: 0;
+    padding: 0 30px 30px 30px;
+    background-color: #ffffff;
+}
+
+#me {
+    float: left;
+    padding: 30px 30px 0 0;
+    width: 200px;
+}
+
+p {
+    margin: 0;
+    padding: 30px 0 0 0;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 10px solid #4aaaa5;
+    background-color: #777777;
+}
+
+
+#invisible {
+    display: block;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+h6 {
+    position: relative;
+    top: 20px;
+    color: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* portfolio page add-ons */
+.icon {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    padding: 30px 30px 30px 0;
+}
+
+#hiking, #running, #travel, #question {
+    vertical-align: top;
+    width: 100%;
+    height: 185px;
+}
+
+h4 {
+    position: absolute;
+    top: 125px;
+    width: 210px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+}
+
+form {
+    padding: 30px 0;
+}
+
+label {
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* contact page add-ons */
+#box {
+    margin: 10px 0;
+    padding: 10px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+textarea {
+    box-sizing: border-box;
+    margin: 10px 0;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    border: 1px solid #dddddd;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+input[type=submit] {
+    box-sizing: border-box;
+    margin: 10px 0;
+    width: 10%;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  /* phone devices */
+@media only screen and (max-width: 640px) {
+    
+} 
+
+/* tablet devices */
+@media only screen and (min-width: 768px) {
+    
+} 
+
+/* desktop devices */
+@media only screen and (max-width: 980px) {
+    main {
+        width: 50%;
+    }
+} 
