@@ -228,11 +228,17 @@ input[type=submit] {
 
 /* desktop devices */
 @media only screen and (max-width: 980px) {
-    .container, main {
+    .container {
         margin: auto 100px;
     }
 
     main {
-        width: 70%;
+        width: 640px;
+        margin: 30px 100px 0 100px;
+    }
+
+    nav {
+        display: inline-block;
+        margin: auto 150px;
     }
 } 
