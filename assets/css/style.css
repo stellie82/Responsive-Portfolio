@@ -216,16 +216,6 @@ input[type=submit] {
     cursor: pointer;
   }
 
-  /* phone devices */
-@media only screen and (max-width: 640px) {
-    
-} 
-
-/* tablet devices */
-@media only screen and (min-width: 768px) {
-    
-} 
-
 /* desktop devices */
 @media only screen and (max-width: 980px) {
     .container {
@@ -241,4 +231,26 @@ input[type=submit] {
         display: inline-block;
         margin: auto 150px;
     }
+}
+
+/* tablet devices */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: auto 20px;
+    }
+
+    main {
+        width: 728px;
+        margin: 30px 20px 0 20px;
+    }
+
+    nav {
+        display: inline-block;
+        margin: auto 225px;
+    }
+} 
+
+ /* phone devices */
+ @media only screen and (max-width: 640px) {
+    
 } 
