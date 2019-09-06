@@ -216,6 +216,8 @@ input[type=submit] {
     cursor: pointer;
   }
 
+/* Responsive media effects */
+
 /* desktop devices */
 @media only screen and (max-width: 980px) {
     .container {
