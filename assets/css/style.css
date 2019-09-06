@@ -217,14 +217,15 @@ input[type=submit] {
   }
 
 /* desktop devices */
-@media only screen and (max-width: 980px) and (min-width: 767px) {
+@media only screen and (max-width: 980px) {
     .container {
         margin: auto 100px;
+        width: 100%;
     }
 
     main {
-        width: 640px;
         margin: 30px 100px 0 100px;
+        width: 65%;
     }
 
     nav {
@@ -235,26 +236,35 @@ input[type=submit] {
     input[type=submit] {
         width: 20%;
     }
+
+    .icon {
+        margin: auto;
+    }
 }
 
 /* tablet devices */
-@media only screen and (max-width: 768px) and (min-width: 639px) {
+@media only screen and (max-width: 768px) {
     .container {
         margin: auto 20px;
+        width: 100%;
     }
 
     main {
-        width: 728px;
-        margin: 30px auto;
+        margin: 30px 20px 0 20px;
+        width: 95%;
     }
 
     nav {
         display: inline-block;
-        margin: auto 225px;
+        margin: auto 75px;
     }
 
     input[type=submit] {
         width: 20%;
+    }
+
+    .icon {
+        margin: auto;
     }
 } 
 
@@ -262,21 +272,28 @@ input[type=submit] {
  @media only screen and (max-width: 640px) {
     .container {
         margin: auto;
+        width: 100%;
     }
 
     main {
-        width: 600px;
         margin: 30px auto;
+        width: 95%;
     }
     
     nav {
-        margin: auto 525px;
-        width: 600px;
+        margin: 0;
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+        text-align: center;
     }
 
     #myname h1 {
+        padding: 30px 0;
         width: 100%;
-        padding: 30px 30px 30px 225px;
+        text-align: center;
     }
 
     input[type=submit] {
